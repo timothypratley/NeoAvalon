@@ -6,5 +6,10 @@ Install NeoAxis from http://neoaxisgroup.com/
 
 Copy Data and NativeDlls from C:\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Bin to bin\Debug of the NeoAvalon project directory.
 
+To generate the exception:
+click on new view, then click on new browser.
+The bug does not always appear but will occur often if you keep trying,
+also you can get the same problem when docking.
+
 email timothypratley@gmail.com with any questions
 
