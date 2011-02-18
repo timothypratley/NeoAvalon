@@ -1,0 +1,10 @@
+== Minimal example of NeoAxis with AvalonDock
+
+You need to download AvalonDock from http://avalondock.codeplex.com/ put the dlls in the NeoAvalon project directory.
+
+Install NeoAxis from http://neoaxisgroup.com/
+
+Copy Data and NativeDlls from C:\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Bin to bin\Debug of the NeoAvalon project directory.
+
+email timothypratley@gmail.com with any questions
+
