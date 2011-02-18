@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FA1CF886-11D4-4F68-BBD2-D0AAE3E49A4F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NeoAvalon</RootNamespace>
+    <AssemblyName>NeoAvalon</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AvalonDock">
+      <HintPath>.\AvalonDock.dll</HintPath>
+    </Reference>
+    <Reference Include="ColladaMeshFormat">
+      <HintPath>..\..\..\..\..\..\..\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Bin\ColladaMeshFormat.dll</HintPath>
+    </Reference>
+    <Reference Include="DDSFormat">
+      <HintPath>..\..\..\..\..\..\..\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Bin\DDSFormat.dll</HintPath>
+    </Reference>
+    <Reference Include="DecorativeObjectManager">
+      <HintPath>..\..\..\..\..\..\..\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Bin\DecorativeObjectManager.dll</HintPath>
+    </Reference>
+    <Reference Include="DirectXSoundSystem">
+      <HintPath>..\..\..\..\..\..\..\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Bin\DirectXSoundSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="EntitySystem">
+      <HintPath>..\..\..\..\..\..\..\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Bin\EntitySystem.dll</HintPath>
+    </Reference>
+    <Reference Include="FileSystem">
+      <HintPath>..\..\..\..\..\..\..\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Bin\FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="GameCommon">
+      <HintPath>..\..\..\..\..\..\..\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Bin\GameCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="GameEntities">
+      <HintPath>..\..\..\..\..\..\..\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Bin\GameEntities.dll</HintPath>
+    </Reference>
+    <Reference Include="GridPathFindSystem">
+      <HintPath>..\..\..\..\..\..\..\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Bin\GridPathFindSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="HeightmapTerrain">
+      <HintPath>..\..\..\..\..\..\..\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Bin\HeightmapTerrain.dll</HintPath>
+    </Reference>
+    <Reference Include="Log">
+      <HintPath>..\..\..\..\..\..\..\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Bin\Log.dll</HintPath>
+    </Reference>
+    <Reference Include="MapSystem">
+      <HintPath>..\..\..\..\..\..\..\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Bin\MapSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="MathEx">
+      <HintPath>..\..\..\..\..\..\..\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Bin\MathEx.dll</HintPath>
+    </Reference>
+    <Reference Include="Networking">
+      <HintPath>..\..\..\..\..\..\..\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Bin\Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="ODEPhysicsSystem">
+      <HintPath>..\..\..\..\..\..\..\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Bin\ODEPhysicsSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="OggVorbisTheora, Version=0.9.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Bin\OggVorbisTheora.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenALSoundSystem">
+      <HintPath>..\..\..\..\..\..\..\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Bin\OpenALSoundSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="PhysicsSystem">
+      <HintPath>..\..\..\..\..\..\..\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Bin\PhysicsSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="PhysXPhysicsSystem">
+      <HintPath>..\..\..\..\..\..\..\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Bin\PhysXPhysicsSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Renderer">
+      <HintPath>..\..\..\..\..\..\..\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Bin\Renderer.dll</HintPath>
+    </Reference>
+    <Reference Include="SoundSystem">
+      <HintPath>..\..\..\..\..\..\..\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Bin\SoundSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="UISystem">
+      <HintPath>..\..\..\..\..\..\..\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Bin\UISystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Utils">
+      <HintPath>..\..\..\..\..\..\..\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Bin\Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="WPFAppFramework">
+      <HintPath>..\..\..\..\..\..\..\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Bin\WPFAppFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="ZipArchive">
+      <HintPath>..\..\..\..\..\..\..\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Bin\ZipArchive.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="DockableNeoAxis.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="DockableBrowser.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DockableNeoAxis.xaml.cs">
+      <DependentUpon>DockableNeoAxis.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DockableBrowser.xaml.cs">
+      <DependentUpon>DockableBrowser.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
